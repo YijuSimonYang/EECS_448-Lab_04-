@@ -1,0 +1,45 @@
+t
+{
+font-size: 30pt;
+background-image: url(title.jpeg);
+}
+body
+{
+background-color: rgb(200,255,255);
+}
+item
+{
+border: 1px solid green;
+}
+img
+{
+max-width: 100px;
+height: 75px;
+}
+table
+{
+	text-align: center;
+	background-color: rgb(160,255,255);
+
+}
+
+table, td {
+	border: 1px solid black;
+}
+td.specialCells
+{
+	background-color: white;
+	
+
+}
+
+table.outputForm
+{
+	background-color: lightgreen;
+	border-spacing: 7px;
+	border: 1px solid black; 
+}
+td.inputForm
+{
+	border: none;
+}

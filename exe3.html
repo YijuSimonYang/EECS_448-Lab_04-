@@ -1,0 +1,129 @@
+<!-- 
+<html>
+    <head>
+    <style type="text/css">
+		#menu li { 
+		float:left; /* 往左浮动 */
+		}
+	</style>
+    <style type="text/css">
+		#menu { 
+			font:12px verdana, arial, sans-serif; /* 设置文字大小和字体样式 */
+				}
+		#menu, #menu li {
+					list-style:none; /* 将默认的列表符号去掉 */
+					padding:0; /* 将默认的内边距去掉 */
+					margin:0; /* 将默认的外边距去掉 */
+						}
+	</style>
+	<style type="text/css">
+		#menu li item {
+			display:block; /* 将链接设为块级元素 */
+			width:150px; /* 设置宽度 */
+			height:30px; /* 设置高度 */
+			line-height:30px; /* 设置行高，将行高和高度设置同一个值，可以让单行文本垂直居中 */
+			text-align:center; /* 居中对齐文字 */
+			background:#3A4953; /* 设置背景色 */
+			color:#fff; /* 设置文字颜色 */
+			text-decoration:none; /* 去掉下划线 */
+			border-right:1px solid #000; /* 在左侧加上分隔线 */
+		}
+	</style>
+    	<title>Yiju's Shop</title>
+         <script type="text/javascript"
+                 src="exe3.js">
+         </script>
+         <link href="exe3.css"
+            rel="stylesheet"
+            type="text/css"/>
+    </head>
+    <body>
+    <center>
+    	<t>Yiju's Market</t>
+    </center>
+    	<center>
+    	<ul id="menu">
+ 			<li>
+ 				<item>
+    				<p> iPhone X; </p>
+    				<input type = "checkbox" />
+    				<input type = "number"  style = "width :5vw" min = "0"/>
+    			</item>
+    		</li>
+ 			<li>
+ 				<item>
+    				<p>iPhone 8;</p>
+    				<input type = "checkbox" />
+<!-  -->
+ 
+ <html>
+<head>
+<title>Lab04 Exercise 3</title>
+
+<link rel="stylesheet" type="text/css" href="exe3.css">
+
+<script src="exe3.js"></script>
+</head>
+<body>
+
+<table align="center" border=1>
+<form name ="cart" action = "exe3.php" method="post" onsubmit="return validateForm()">
+<tr>
+<td>Item/Price</td>
+<td>Image</td>
+<td>Enter Quantity Below</td>
+</tr>
+
+
+<tr>
+<td>Samsung Note8 - $930</td>
+<td><img src = "Note8.jpg"height="100" width="130"></td>
+<td><input type ="number" name="note8"></td>
+</tr>
+
+<tr>
+<td>iPhoneX - $999</td>
+<td><img src = "iphonex.png" height="100" width="130"></td>
+<td><input type ="number" name="iphonex"></td>
+</tr>
+
+<tr>
+<td>iPhone8 Plus - $799</td>
+<td><img src = "iphone8p.jpg" height="100" width="130"></td>
+<td><input type ="number" name="iphone8+"></td>
+</tr>
+	
+<tr>
+<td>iPhone8 - $599</td>
+<td><img src = "iphone8.png" height="100" width="65"></td>
+<td><input type ="number" name="iphone8"></td>
+</tr>
+
+<tr>
+<td>Mix2 - $450</td>
+<td><img src = "mix2.jpg" height="100" width="77"></td>
+<td><input type ="number" name="mix2"></td>
+</tr>
+
+
+<tr><td colspan = "3" class="inputForm">Shipping:</td></tr>
+
+<tr><td colspan = "3" class="inputForm"><center><input type="radio" name = "ship" value = "free" id="free">Free 7-Day</center></td></tr>
+<tr><td colspan = "3" class="inputForm"><center><input type="radio" name = "ship" value = "three day" id = "three">$5.00 Three Day</center></td></tr>
+<tr><td colspan = "3" class="inputForm"><center><input type="radio" name = "ship" value = "overnight" id="overnight">$50.00 Over Night</center></td></tr>
+
+<tr><td>Username:</td>
+<td><input type="text" name="username"></td>
+</tr>
+<tr><td>Password:</td>
+<td><input type="text" name="password"></td>
+</tr>
+<tr><td><input type="submit" name="submit" value = "Submit"></td></tr>
+<tr><td><button type="reset" value="Reset">Reset</button>
+</form>
+</table>
+
+</body>
+
+</html>
+    
